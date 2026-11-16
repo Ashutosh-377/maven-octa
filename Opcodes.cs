@@ -1,0 +1,19 @@
+public enum Opcode : byte
+{
+    LOADI   = 0x0,
+    ADD   = 0x1,
+    STORE = 0x2,
+    LOAD  = 0x3,
+    SUB   = 0x4,
+    AND   = 0x5,
+    OR    = 0x6,
+    XOR   = 0x7,
+    NOT   = 0x8,
+    INC   = 0x9,
+    DEC   = 0xA,
+    CMP   = 0xB,
+    JMP   = 0xC,
+    JZ    = 0xD,
+    JNZ   = 0xE,
+    EXT  = 0xF
+}
